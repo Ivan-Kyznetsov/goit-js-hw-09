@@ -85,7 +85,6 @@ gallery.insertAdjacentHTML('beforeend', galleryMarkup.join(''));
 // END
 
 new SimpleLightbox('.gallery-item a', {
-  caption: true,
   captionsData: 'alt',
   captionDelay: 250,
 });
